@@ -3,11 +3,11 @@ import { TypeOrmModuleOptions } from '@nestjs/typeorm';
 export const typeOrmConfig: TypeOrmModuleOptions = {
   //Example for postgres but available for others db
   type: 'postgres',
-  host: process.env.DB_HOST,
+  host: 'db.tpyefpvoqisdsuhhjlpr.supabase.co',
   port: 5432,
-  username: process.env.DB_USERNAME,
-  password: process.env.DB_PASSWORD,
-  database: process.env.DB_NAME,
+  username: 'postgres',
+  password: 'le-super-password-07',
+  database: 'postgres',
   autoLoadEntities: true,
   synchronize: true,
 };
