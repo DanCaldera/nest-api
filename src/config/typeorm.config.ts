@@ -1,5 +1,6 @@
 import { TypeOrmModuleOptions } from '@nestjs/typeorm';
 
+// temporal postgres connection
 export const typeOrmConfig: TypeOrmModuleOptions = {
   //Example for postgres but available for others db
   type: 'postgres',
