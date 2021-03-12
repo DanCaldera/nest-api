@@ -3,8 +3,6 @@ import * as config from 'config';
 
 const dbConfig = config.get('db');
 
-console.log(process.env.DB_PASSWORD);
-
 export const typeOrmConfig: TypeOrmModuleOptions = {
   //Example for postgres but available for others db
   type: dbConfig.type,
